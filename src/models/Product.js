@@ -22,10 +22,6 @@ module.exports = (sequelize) => {
             defaultValue: 1,
             allowNull: true,
         },
-        user_creator: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-        },
         user_last_update: {
             type: DataTypes.INTEGER,
             allowNull: true,
